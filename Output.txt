@@ -1,0 +1,13 @@
+Their drawbacks
+
+Despise being favored in the past, these 2 activation functions are
+less used today, especially when it comes to training deep neural
+networks with a large number of layers.
+
+» The biggest problem is called Vanishing Gradient. That is, for a
+deep network with many layers, when we update the weights using
+backpropagation, the gradients transferred back to the earlier layers
+get contracted exponentially. At some points, the updating gradients
+almost vanish (become so close to 0), making the network unable to
+learn any more.
+
